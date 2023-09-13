@@ -88,7 +88,7 @@ export const ItemLista = styled.li`
         @media screen and (min-width: 960px) {
           justify-content: flex-start;
           position: absolute;
-          right: -525px;
+          right: -500px;
         }
       }
     }
