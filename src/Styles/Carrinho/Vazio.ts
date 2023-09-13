@@ -16,6 +16,11 @@ const StyledCarrinhoVazio = styled.div`
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+    & br {
+      @media screen and (min-width: 960px) {
+        display: none;
+      }
+    }
   }
   & img {
     width: 179px;

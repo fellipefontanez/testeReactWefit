@@ -44,7 +44,9 @@ export default function Carrinho() {
   if (!filmes.itens)
     return (
       <StyledCarrinhoVazio>
-        <span className="title">Parece que não há nada por aqui :(</span>
+        <span className="title">
+          Parece que não <br /> há nada por aqui :(
+        </span>
         <img src="/src/assets/vetores/vazio.svg" alt="vazio" />
         <hr />
         <Botao
